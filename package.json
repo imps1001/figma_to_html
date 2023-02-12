@@ -1,0 +1,38 @@
+{
+  "name": "figmatohtml",
+  "version": "1.0.0",
+  "description": "Your Figma Plugin",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "npm run build -- --watch"
+  },
+  "author": "Pragati Sahu",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "jest": "^29.4.2",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "@figma/plugin-typings": "^1.19.2",
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@rollup/plugin-image": "^3.0.2",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "@types/jest": "^29.4.0",
+    "autoprefixer": "^10.4.13",
+    "clipboard-copy": "^4.0.1",
+    "css-loader": "^6.7.3",
+    "cssnano": "^5.1.14",
+    "figma-api-stub": "^0.0.56",
+    "figma-plugin-ds-svelte": "^1.4.3",
+    "postcss": "^8.4.21",
+    "prism-theme-night-owl": "^1.4.0",
+    "sirv-cli": "^1.0.11",
+    "svelte": "^3.55.1",
+    "svelte-loader": "^3.1.5",
+    "svelte-preprocess": "^5.0.1",
+    "svelte-prism": "^1.1.6",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  }
+}
